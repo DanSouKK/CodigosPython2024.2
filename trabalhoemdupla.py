@@ -14,7 +14,9 @@ elif numero==2:
        classe="Mago"
 elif numero==3:
        classe="Arqueiro"
-print("Muito bem ja escolheu sua classe!")
+else:
+       classe="Invalida"
+print(f"A classe que você escolheu é {classe} \n")
 
 #usuario ja escolheu sua classe
 #agora ele tera que escolher seus equipamentos
@@ -32,6 +34,8 @@ elif(equip==3):
        estilo="Arco e Flecha"
 elif(equip==4):
        estilo="Espada e Escudo" 
+else:
+       estilo="Invalido"
 print("Você esta pronto para aventura!")
 print(f"Você jogara de {classe} e usará {estilo}")
 print("Hora da aventura!")
