@@ -36,8 +36,9 @@ elif(equip==4):
        estilo="Espada e Escudo" 
 else:
        estilo="Invalida"
+#retornar uma mensagem de erro caso o usuario nao atenda aos requisitos.       
 if estilo != "Invalida" and classe != "Invalida":
-        print(f"Personagem criado com sucesso! \n Vocé um {classe} com o equipamento {estilo}")
+        print(f"\n Personagem criado com sucesso! \n Vocé um {classe} com o equipamento {estilo}")
 else:
     print("Erro na criação do personagem, tente novamente!")
 #print("Você esta pronto para aventura!")
