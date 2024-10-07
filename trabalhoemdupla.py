@@ -41,7 +41,7 @@ if estilo != "Invalida" and classe != "Invalida":
         print(f"\n Personagem criado com sucesso! \n Vocé um {classe} com o equipamento {estilo}")
 else:
     print("Erro na criação do personagem, tente novamente!")
-#print("Você esta pronto para aventura!")
+print("Você esta pronto para aventura!")
 #print(f"Você jogara de {classe} e usará {estilo}")
 #print("Hora da aventura!")
 
